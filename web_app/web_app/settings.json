@@ -1,0 +1,23 @@
+{
+    "theme": "dark",
+    "display": {
+        "table_height": 600,
+        "max_results_display": 100,
+        "show_source_distribution": true
+    },
+    "search": {
+        "default_pages": 5,
+        "max_pages": 20,
+        "default_sources": [
+            "naver_news",
+            "google_search"
+        ],
+        "request_delay": 1.5
+    },
+    "advanced": {
+        "request_timeout": 10,
+        "cache_results": true,
+        "cache_expiry_hours": 24,
+        "parallel_requests": false
+    }
+}
